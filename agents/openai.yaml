@@ -1,0 +1,7 @@
+interface:
+  display_name: "短视频复盘"
+  short_description: "复盘短视频真实数据，定位漏斗问题并生成下一轮单变量测试任务"
+  default_prompt: "使用 $short-video-review 复盘我最近发布的短视频数据，并给出下一轮改进计划。"
+
+policy:
+  allow_implicit_invocation: true
